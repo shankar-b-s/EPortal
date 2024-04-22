@@ -6,7 +6,7 @@ const Aboutus = () => {
       <div className="font-semibold text-7xl"><span className="text-black">ABOUT </span><span className="text-[#4167ED]">US</span></div>
       <div className="text-3xl py-10 flex items-center justify-between">
         <div className='p-14'>
-          <div className='text-4xl'>
+          <div className='text-3xl'>
             <Typewriter
               options={{
                 strings: ['Missing out Events you are interested in?', 
