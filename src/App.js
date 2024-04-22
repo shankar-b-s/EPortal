@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Landing from './Components/Landing';
+import Events from './Components/Events';
+import SignIn from './Components/Signin';
+import About from './Components/About';
+import Aboutus from './Components/Aboutus';
+import {Routes,Route} from 'react-router-dom';
+import Adminlogin from './Components/Adminlogin';
+import Addevent from './Components/Addevent';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/landing" element={<Landing/>}/>
+      <Route path='/events' element={<Events/>}/>
+      <Route path='/' element={<SignIn/>}/>
+      <Route path='/signin' element={<SignIn/>}/>
+      <Route path='/aboutc' element={<About/>}/>
+      <Route path='/aboutus' element={<Aboutus/>}/>
+      <Route path='/adminlogin' element={<Adminlogin/>}/>
+      <Route path='/addevent' element={<Addevent/>}/>
+    </Routes>
   );
 }
 

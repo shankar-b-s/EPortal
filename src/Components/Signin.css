@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+ 
+
+}
+
+.signin {
+  height:450px;
+  width: 550px;
+  padding: 300px 350px 300px 350px;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  background: rgba(0,0,0,0);
+  backdrop-filter: saturate(180%) blur(10px);
+  font-size: 30px;
+  
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  height:10px;
+  width:300px;
+  margin-left: 30px;
+  position: relative;
+  top:100px;
+
+}
+
+
+
+.label {
+  display: inline-block;
+  width: 100px; 
+  text-align: right;
+  margin-right: 20px;
+}
+
+.sub{
+  margin-top: 40px;
+  position: relative;
+  top: 140px;
+  height: 90px;
+  
+
+}
+
+.pass{
+  display:inline-flex;
+  margin-top: 10px;
+}
+.Sign{
+  position: absolute;
+  top: 30px;
+}
+
+.big{
+  position: relative;
+  top: 60px;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.but{
+  background-color:#4167ED ;
+  height: 60px;
+  width: 140px;
+}
+.but:hover{
+  background-color: white;
+  color: #4167ED;
+  border: 2px solid black;
+}
+
+

@@ -1,0 +1,14 @@
+{
+  "itemvals":
+  [
+    {"eventname":"E-talk","orgname":"E-cell","venue":"Anna Auditorium","date":"16 April","time":"2 p.m.-7p.m.","od":"yes","id":1},
+    {"eventname":"Achievers Conclave","orgname":"E-cell","venue":"MB Channa Reddy","date":"14 April","time":"2 p.m.-7p.m.","od":"yes","id":2},
+    {"eventname":"UTKALIKA","orgname":"OLA","venue":"GREENOS","date":"13 April","time":"4 p.m.-7p.m.","od":"yes","id":3},
+    {"eventname":"GENESIS","orgname":"SEDS-VIT","venue":"Ambedkar Auditorium","date":"12 April","time":"4 p.m.-7p.m.","od":"yes","id":4},
+    {"eventname":"RESUME REVAMP","orgname":"IEEE-TEMS","venue":"HOMI BHABHA AUDITORIUM","date":"9 April","time":"9 a.m.-10:30 a.m.","od":"yes","id":5},
+    {"eventname":"QuantAlphaX","orgname":"Bills and Bears","venue":"MB Channa Reddy Auditorium","date":"10 April","time":"9 a.m.-8 p.m.","od":"yes","id":6},
+    {"eventname":"Quiz Mania (2.0) ","orgname":"KLA","venue":"TT Kamraj Auditorium","date":"26 March","time":"5 p.m.-7:30 p.m.","od":"yes","id":7},
+    {"eventname":"Technica","orgname":"ISTE","venue":"SJT","date":"23 Nov","time":"9 a.m.-7p.m.","od":"yes","id":8}
+  ]
+
+}
