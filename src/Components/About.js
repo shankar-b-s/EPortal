@@ -6,7 +6,7 @@ const About=()=>{
     return(
       <div className='flex flex-col items-center bg-white'>
         <div className='title font-semibold'>
-          <div className='text-4xl p-20'>ABOUT US</div>
+          <div className='text-4xl p-20'>ABOUT <span className='text-[#417FDE]'>US</span></div>
         </div>
         <div className='flex justify-evenly'>
           <div className='flex flex-col justify-between items-center'>

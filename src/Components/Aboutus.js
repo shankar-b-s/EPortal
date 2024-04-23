@@ -25,7 +25,7 @@ const Aboutus = () => {
             <p className='py-2'>happening around you, so that you won't miss out a chance </p>
             <p className='py-2'> to participate, learn and grow.</p>
           </div>
-          <button className="bg-[#4167ED] hover:bg-white hover:text-[#4167ED] text-xl text-white p-4 font-semibold rounded-xl my-6"><a href="/events">Find Out </a></button>
+          <button className="bg-[#4167ED] hover:bg-white hover:border-2 hover:border-black hover:text-[#4167ED] text-xl text-white p-4 font-semibold rounded-xl my-6"><a href="/events">Find Out </a></button>
         </div>
         <div className='ml-10 pr-24'>
           <img src={stdygrp} alt="img" />

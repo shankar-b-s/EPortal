@@ -9,10 +9,9 @@ const Footer = () => {
        <div>
           <ul className="links flex justify-center items-center p-5">
             <li className='px-2'><a href='/landing'>Home</a></li>
-            <li className='px-2'><a href='/landing'>About</a></li>
-            <li className='px-2'><a href='/landing'>Services</a></li>
+            <li className='px-2'><a href='/aboutus'>About</a></li>
             <li className='px-2'><a href='/aboutc'>Team</a></li>
-            <li className='px-2'><a href='/landing'>Contact</a></li>
+            <li className='px-2'><a href='/contact'>Contact</a></li>
           </ul>
        </div>
        <div>

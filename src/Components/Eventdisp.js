@@ -10,7 +10,7 @@ const Eventdisp = ({data}) => {
   return ( 
     <div>
       {items.map((items)=>(
-          <div className="eventsmain flex justify-between border-2 border-black rounded-xl  m-10 font-MyFont">
+          <div className="eventsmain flex justify-between border-2 border-black rounded-xl  m-10 font-MyFont hidden">
             <div className="flex justify-evenly items-center">
               <div className="p-16"><img src={logo} alt="" /></div>
               <div className="flex flex-col p-12 text-xl pl-96">
@@ -38,7 +38,7 @@ const Eventdisp = ({data}) => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#4167ED]  py-36 px-16 rounded-r-xl text-white"><FaArrowRight size={40}/></div>
+            <div className="bg-[#4167ED] hover:text-black hover:bg-white  py-36 px-16 rounded-r-xl text-white"><a href="https://vtop.vit.ac.in/vtop/content"><FaArrowRight size={40}/></a></div>
           </div>
         ))}
         <Footer/>
